@@ -1,29 +1,18 @@
-package com.qumu.demo.dao;
+package com.tide.acme.dao;
 
-public class AccountDaoImpl implements IUserDao {
+import com.tide.acme.model.domain.AccountTransaction;
+import com.tide.acme.model.domain.UserAccount;
 
-	@Override
-	public synchronized String addUser(com.qumu.demo.model.domain.UserAccount user) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+/**
+ * Created by zhuanghua on 16/9/29.
+ */
 
-	@Override
-	public synchronized String updateUser(com.qumu.demo.model.domain.UserAccount user) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+public class AccountDaoImpl implements IAccountDao {
+    public String addTransaction(AccountTransaction accountTransaction) {
+        return null;
+    }
 
-	@Override
-	public synchronized String deleteUser(com.qumu.demo.model.domain.UserAccount user) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public com.qumu.demo.model.domain.UserAccount getUser(String userName) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+    public UserAccount getUserAccount(String accountId) {
+        return null;
+    }
 }

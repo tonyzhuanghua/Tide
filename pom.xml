@@ -30,8 +30,6 @@
             <artifactId>jersey-server</artifactId>
             <version>1.19</version>
         </dependency>
-
-
         <!-- Spring MVC support -->
 
         <dependency>
